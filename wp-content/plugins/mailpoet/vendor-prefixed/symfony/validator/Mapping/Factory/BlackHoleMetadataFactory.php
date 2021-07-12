@@ -1,0 +1,2 @@
+<?php
+ namespace MailPoetVendor\Symfony\Component\Validator\Mapping\Factory; if (!defined('ABSPATH')) exit; use MailPoetVendor\Symfony\Component\Validator\Exception\LogicException; class BlackHoleMetadataFactory implements \MailPoetVendor\Symfony\Component\Validator\Mapping\Factory\MetadataFactoryInterface { public function getMetadataFor($value) { throw new \MailPoetVendor\Symfony\Component\Validator\Exception\LogicException('This class does not support metadata.'); } public function hasMetadataFor($value) { return \false; } } 

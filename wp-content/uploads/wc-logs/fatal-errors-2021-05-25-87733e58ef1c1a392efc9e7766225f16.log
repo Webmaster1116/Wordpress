@@ -1,0 +1,2 @@
+2021-05-25T21:19:45+00:00 CRITICAL Out of memory (allocated 65011712) (tried to allocate 65536 bytes) in D:\develop\exercise\wordpress\wp-content\plugins\woocommerce-services\classes\class-wc-connect-service-settings-store.php on line 234
+
